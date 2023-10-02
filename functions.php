@@ -1,3 +1,5 @@
+<?php
+
 add_action( 'template_redirect', 'redirect_external_products' );
 function redirect_external_products() {
     global $post;
